@@ -1,0 +1,35 @@
+body {
+  background-color: #0c0c0c;
+}
+
+body h2 {
+  color: white;
+}
+
+.factslist {
+  line-height: 50px;
+}
+
+.hmmm {
+  margin-top: 120px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.factslist ol li {
+  color: #fc3;
+}
+
+@media (max-width: 767.98px) {
+  .factslist ol li {
+    color: white;
+  }
+}
+
+#navstyle, #navstyle > li > a, #navstyle li a:hover {
+  background-color: #0c0c0c;
+  color: white;
+  padding: 10px;
+  letter-spacing: 3px;
+}
+/*# sourceMappingURL=style-sass.css.map */

@@ -1,0 +1,50 @@
+// SCSS variable
+$lnh: 50px;
+
+// SCSS inheritance.
+%backgroundfacts {
+    background-color: rgb(12, 12, 12);
+
+    h2 {
+    color: white;
+}
+}
+
+
+body {
+    @extend %backgroundfacts;
+}
+
+
+.factslist {
+    line-height: $lnh;
+}
+
+.hmmm {
+    margin-top: 120px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+// SCSS nesting
+.factslist {
+    ol {
+        li {
+            color: #fc3;
+
+            @media (max-width: 767.98px) { 
+                color: white;
+            }
+        }
+    }
+}
+
+
+#navstyle, #navstyle>li>a, #navstyle li a:hover {
+    background-color:rgb(12, 12, 12);
+    color: white;
+    padding: 10px;
+    letter-spacing: 3px;
+}
+
+
